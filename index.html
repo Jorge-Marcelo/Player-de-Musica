@@ -1,0 +1,95 @@
+<!--
+Autor: Jorge Marcelo
+Data de Criação: 08/10/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Player de MUsica</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital@1&family=Yanone+Kaffeesatz&display=swap"
+rel="stylesheet"
+/>
+</head>
+<body>
+<section class="player">
+<img src="assets/img/player/Capa.png" style="border: 4px solid black" />
+<span class="musicName" id="musicName"></span>
+<audio id="audio"></audio>
+
+<article>
+<button class="controles" id="anterior">
+<img src="assets/img/player/Previus.png" />
+</button>
+
+<button class="controles" id="play">
+<img src="assets/img/player/Play.png" />
+</button>
+
+<button class="controles" id="pause">
+<img src="assets/img/player/Pause.png" />
+</button>
+
+<button class="controles" id="proximo">
+<img src="assets/img/player/Next.png" />
+</button>
+</article>
+
+<article class="barra-progresso">
+<span class="progress-bar" id="progress-bar">
+<span class="progresso" id="progress"></span>
+</span>
+</article>
+
+<article>
+<span class="timer" id="timer">0:00 / 0:00</span>
+</article>
+
+<h1>Made by: Jorge Marcelo</h1>
+
+<!--Rodape e Redes Sociais-->
+<footer>
+<table>
+<tr>
+<td>
+<button class="social" id="github">
+<img src="assets/img/social/github.png" />
+</button>
+</td>
+
+<td>
+<button class="social" id="linkedin">
+<img src="assets/img/social/linkedin.png" />
+</button>
+</td>
+
+<td>
+<button class="social" id="instagram">
+<img src="assets/img/social/insta.png" />
+</button>
+</td>
+
+<td>
+<button class="social" id="threads">
+<img src="assets/img/social/threads.png" />
+</button>
+</td>
+</tr>
+</table>
+</footer>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
